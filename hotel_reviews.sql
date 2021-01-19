@@ -1,23 +1,22 @@
--- Delete the table "hotel_review"
-DROP TABLE hotel_review;
+-- Delete the table "review"
+DROP TABLE review;
 
--- Re-create the table "hotel_review" within hotel_review_db
-CREATE TABLE hotel_review (
-  id SERIAL PRIMARY KEY,
+-- Re-create the table "review" within hotel_db
+CREATE TABLE review (
+  id INT,
   address VARCHAR,
   city VARCHAR,
   country VARCHAR,
-  latitude DEC,
-  longitute DEC, 
+  latitude FLOAT,
+  longitude FLOAT, 
   name VARCHAR,
   postalCode VARCHAR,
   province VARCHAR,
   reviews_rating INT,
-  reviews_text VARCHAR,
-  reviews_title VARCHAR,
-  sourceURLs VARCHAR
+  reviews_sourceURLs VARCHAR,
+  reviews_title VARCHAR  
 );
 
 -- Query all fields from the table
 SELECT *
-FROM hotel_review;
+FROM review;
