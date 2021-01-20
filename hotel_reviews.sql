@@ -3,7 +3,8 @@ DROP TABLE review;
 
 -- Re-create the table "review" within hotel_db
 CREATE TABLE review (
-  id INT,
+  id INT PRIMARY KEY,
+  hotel_id VARCHAR,
   address VARCHAR,
   city VARCHAR,
   country VARCHAR,
@@ -13,10 +14,8 @@ CREATE TABLE review (
   postalCode VARCHAR,
   province VARCHAR,
   reviews_rating INT,
-  reviews_sourceURLs VARCHAR,
-  reviews_title VARCHAR  
+  reviews_sourceURLs TEXT  
 );
 
--- Query all fields from the table
-SELECT *
+SELECT * 
 FROM review;
