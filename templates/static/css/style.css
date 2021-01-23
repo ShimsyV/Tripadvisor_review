@@ -5,16 +5,15 @@ html, body{
 }
 
 #header-container {
-	/*background-color: #e8f0f9;*/
-	width: 98.5%;
+	width: 98%;
 	height: 80px;
-	margin-top: 10px;
+	margin-top: 5px;
 	margin-left: 10px;
 	margin-right: 10px;
-	border-bottom: 5px solid #f1f6fb;
+	background-color: #350d36;
+	border-bottom: 5px solid #000000;
 }
-	
-}
+
 
 .header {
 	position: absolute;
@@ -56,20 +55,20 @@ html, body{
     list-style-type:none;
     list-style-position:outside;
     margin:0px;
-    padding:0px;
+	padding:0px;
+
     text-decoration: none;
 }
 .menu li{
     padding:12px;
     border-bottom:1px solid #e5e5e8;
-    position:relative;
-    text-decoration: none;
+	position:relative;
     color: #3a71b8;
 }
 
 .menu li a:link{
     position:relative;
-    text-decoration: none;
+	text-decoration: none;
     color: #0369ed;
 }
 
@@ -81,7 +80,7 @@ html, body{
 
 .menu li a:hover, a:active{
     position:relative;
-    text-decoration: none;
+	text-decoration: none;
     color: #000066;
 }
 
@@ -89,8 +88,8 @@ html, body{
 /*.menu li a:active{ 
     position:relative;
     text-decoration: none;
-    color: #000066;*/
-}
+    color: #000066;
+}*/
 
 ul {
     color: #333366;
