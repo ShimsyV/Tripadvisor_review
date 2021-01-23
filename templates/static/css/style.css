@@ -1,0 +1,162 @@
+html, body{
+	font-family:'Ubuntu',Franklin Gothic,sans-serif;
+	height: 100%;
+
+}
+
+#header-container {
+	/*background-color: #e8f0f9;*/
+	width: 98.5%;
+	height: 80px;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-bottom: 5px solid #f1f6fb;
+}
+	
+}
+
+.header {
+	position: absolute;
+	top: 5%;
+	left: 20px;
+	
+}
+
+.header2 {
+	position: absolute;
+	top: 1%;
+	right: 20px;
+	float: right;
+}
+
+
+.display-4 {
+	color: #3399cc;
+	margin-bottom: -15px;
+	font-size: 36px;
+	text-align : center;
+}
+
+
+.h3 {
+	color: #3399cc;
+	margin-bottom: -15px;
+}
+
+.p {
+	color: #262261;
+}
+
+.menu ul {
+	position: absolute;
+	top: 20%;
+	left: 30px;
+    width:180px;
+    list-style-type:none;
+    list-style-position:outside;
+    margin:0px;
+    padding:0px;
+    text-decoration: none;
+}
+.menu li{
+    padding:12px;
+    border-bottom:1px solid #e5e5e8;
+    position:relative;
+    text-decoration: none;
+    color: #3a71b8;
+}
+
+.menu li a:link{
+    position:relative;
+    text-decoration: none;
+    color: #0369ed;
+}
+
+.menu li a:visited{
+    position:relative;
+    text-decoration: none;
+    color: #46658d;
+}
+
+.menu li a:hover, a:active{
+    position:relative;
+    text-decoration: none;
+    color: #000066;
+}
+
+
+/*.menu li a:active{ 
+    position:relative;
+    text-decoration: none;
+    color: #000066;*/
+}
+
+ul {
+    color: #333366;
+}
+li{
+    color: #333366;
+}
+
+.main {
+	position: absolute;
+	top: 15%;
+	left: 300px;
+	width : 60%;
+	text-align : left;
+	
+}
+
+.link{
+	color:yellow;
+}
+
+
+table{
+	border-collapse:collapse;
+	color: #000099
+}
+
+td{
+	border:1px solid #000066;
+	padding:15px;
+}
+
+tr:first-child
+{
+	font-weight:bold;
+}
+
+/*.footer {
+	position : absolute;
+	top: 110%;
+	font-size: 12px;
+	width: 100%;
+	text-align : center;
+	color: #000066;
+	padding-bottom: 10px;
+	
+}*/
+
+#statistics {
+	margin-top: 20px;
+}
+
+#container {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -30px;
+}
+#footer, #push {
+    height: 30px;
+    clear: both;
+    text-align: center;
+    color: #000066;
+    font-size: 12px;
+    display: block;
+    position: fixed;
+    z-index: 10000;
+    width: 100%;
+}
