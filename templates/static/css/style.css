@@ -55,6 +55,14 @@ html, body{
 	color: #262261;
 }
 
+.i3 {
+	font-style: italic;
+	text-align : center;
+	font-size: 14px;
+	color: #808080;
+	
+}
+
 .menu ul {
 	position: absolute;
 	top: 20%;
@@ -92,6 +100,12 @@ html, body{
     color: #000066;
 }
 
+.center-b {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
 
 /*.menu li a:active{ 
     position:relative;
