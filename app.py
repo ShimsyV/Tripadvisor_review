@@ -54,6 +54,7 @@ class hotel_reviews(db.Model):
     province= db.Column(db.String(64))
     reviews_rating=db.Column(db.Integer)
     reviews_sourceURLs=db.Column(db.String(64))
+    keywords=db.Column(db.String(64))
    
 # def  __repr__(self):
 #     return '<Drugs %r>' % (self.state)
@@ -66,17 +67,8 @@ def welcome():
     """List all available api routes."""
     return (
         f"Available Routes:<br/>"
-        f"/api/v1.0/hotel_id<br/>"
-        f"/api/v1.0/address<br/>"
-        f"/api/v1.0/city<br/>"
-        f"/api/v1.0/country<br/>"
-        f"/api/v1.0/latitude<br/>"
-        f"/api/v1.0/longitude<br/>"
-        f"/api/v1.0/name<br/>"
-        f"/api/v1.0/postalcode<br/>"
-        f"/api/v1.0/province<br/>"
-        f"/api/v1.0/reviews_rating<br/>"
-        f"/api/v1.0/reviews_sourceURLs<br/>"        
+        f"/api/v1.0/reviewsall<br/>"
+                
         )
 # #################################################
 # # Rendering the Template
@@ -95,22 +87,23 @@ def reviewsall():
     results = db.session.query(hotel_reviews).all()
     dataReturn=[]
     for data in results:
-            reviewsdict={
-                "id": data.id,
-                "hotel_id": data.hotel_id,
-                "address": data.address,
-                "city": data.city,
-                "country": data.country,
-                "latitude": data.latitude,
-                "longitude": data.city,
-                "name": data.name,
-                "postalcode": data.postalcode,
-                "province":data.province,
-                "reviews_rating":data.reviews_rating,
-                "reviews_sourceURLs": data.reviews_sourceURLs
-            }
+        reviewsdict={
+            "id": data.id,
+            "hotel_id": data.hotel_id,
+            "address": data.address,
+            "city": data.city,
+            "country": data.country,
+            "latitude": data.latitude,
+            "longitude": data.city,
+            "name": data.name,
+            "postalcode": data.postalcode,
+            "province":data.province,
+            "reviews_rating":data.reviews_rating,
+            "reviews_sourceURLs": data.reviews_sourceURLs,
+            "keywords": data.keywords
+        }
 
-            dataReturn.append(reviewsdict)
+        dataReturn.append(reviewsdict)
     return jsonify(dataReturn)
 
 
