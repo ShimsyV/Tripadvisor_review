@@ -1,0 +1,108 @@
+<table style="width: 76.3433%;" border="1">
+<tbody>
+<tr style="height: 20px;">
+<td style="height: 20px; width: 10%;">&nbsp;<strong>Cluster</strong></td>
+<td style="height: 20px; width: 73.4247%;">&nbsp;<strong>Keyword</strong></td>
+</tr>
+<tr style="height: 20px;">
+<td style="height: 20px; width: 10%;">&nbsp;0</td>
+<td style="height: 20px; width: 73.4247%;">&nbsp;park, free, hotel, room, stay, good, breakfast, locat, clean, great</td>
+</tr>
+<tr style="height: 20px;">
+<td style="height: 20px; width: 10%;">&nbsp;1</td>
+<td style="height: 20px; width: 73.4247%;">&nbsp;orlando, airport, garden, hilton, managerhilton, stay, guest, servic, alex, blancogener</td>
+</tr>
+<tr style="height: 20px;">
+<td style="height: 20px; width: 10%;">&nbsp;2</td>
+<td style="height: 20px; width: 73.4247%;">&nbsp;disneyland, anaheim, hotel, stay, room, park, clean, walk, disney, great</td>
+</tr>
+<tr style="height: 20px;">
+<td style="height: 20px; width: 10%;">&nbsp;3</td>
+<td style="height: 20px; width: 73.4247%;">&nbsp;smell, room, dirti, hotel, carpet, stay, sheet, stain, chelsea, annex</td>
+</tr>
+<tr style="height: 20px;">
+<td style="height: 20px; width: 10%;">&nbsp;4</td>
+<td style="height: 20px; width: 73.4247%;">&nbsp;love, hotel, great, stay, room, staff, back, place, locat, time</td>
+</tr>
+<tr style="height: 20px;">
+<td style="height: 20px; width: 10%;">&nbsp;5</td>
+<td style="height: 20px; width: 73.4247%;">&nbsp;nice, pool, room, hotel, clean, good, great, stay, area, breakfast</td>
+</tr>
+<tr style="height: 20px;">
+<td style="height: 20px; width: 10%;">&nbsp;6</td>
+<td style="height: 20px; width: 73.4247%;">&nbsp;stay, great, staff, friend, help, clean, hotel, room, breakfast, locat</td>
+</tr>
+<tr style="height: 20px;">
+<td style="height: 20px; width: 10%;">&nbsp;7</td>
+<td style="height: 20px; width: 73.4247%;">&nbsp;hotel, stay, room, great, servic, staff, locat, place, restaur, breakfast</td>
+</tr>
+<tr style="height: 20px;">
+<td style="height: 20px; width: 10%;">&nbsp;8</td>
+<td style="height: 20px; width: 73.4247%;">&nbsp;desk, front, room, hotel, staff, stay, help, great, servic, breakfast</td>
+</tr>
+<tr style="height: 20px;">
+<td style="height: 20px; width: 10%;">&nbsp;9</td>
+<td style="height: 20px; width: 73.4247%;">&nbsp;room, experi, apolog, stay, guest, hotel, sorri, feedback, thank, hope</td>
+</tr>
+<tr style="height: 20px;">
+<td style="height: 20px; width: 10%;">&nbsp;10</td>
+<td style="height: 20px; width: 73.4247%;">&nbsp;airport, shuttl, hotel, philadelphia, stay, flight, room, good, breakfast, free</td>
+</tr>
+<tr style="height: 20px;">
+<td style="height: 20px; width: 10%;">&nbsp;11</td>
+<td style="height: 20px; width: 73.4247%;">&nbsp;across, street, space, hotel, room, needl, breakfast, great, includ, walk</td>
+</tr>
+<tr style="height: 20.4px;">
+<td style="height: 20.4px; width: 10%;">&nbsp;12</td>
+<td style="height: 20.4px; width: 73.4247%;">&nbsp;beach, ocean, hotel, locat, room, stay, great, view, walk, restaur</td>
+</tr>
+<tr style="height: 20px;">
+<td style="height: 20px; width: 10%;">&nbsp;13</td>
+<td style="height: 20px; width: 73.4247%;">&nbsp;chicago, conrad, stay, thank, hotel, room, great, forward, river, time</td>
+</tr>
+<tr style="height: 20px;">
+<td style="height: 20px; width: 10%;">&nbsp;14</td>
+<td style="height: 20px; width: 73.4247%;">&nbsp;french, quarter, orlean, hotel, room, stay, street, locat, walk, great</td>
+</tr>
+<tr style="height: 20px;">
+<td style="height: 20px; width: 10%;">&nbsp;15</td>
+<td style="height: 20px; width: 73.4247%;">&nbsp;suit, room, stay, hotel, bedroom, area, breakfast, great, comfort, time</td>
+</tr>
+<tr style="height: 20px;">
+<td style="height: 20px; width: 10%;">&nbsp;16</td>
+<td style="height: 20px; width: 73.4247%;">&nbsp;seattl, hyatt, hotel, needl, stay, space, hous, downtown, jung, guest</td>
+</tr>
+<tr style="height: 20px;">
+<td style="height: 20px; width: 10%;">&nbsp;17</td>
+<td style="height: 20px; width: 73.4247%;">&nbsp;check, room, hotel, arriv, stay, night, book, call, earli, tell</td>
+</tr>
+<tr style="height: 20px;">
+<td style="height: 20px; width: 10%;">&nbsp;18</td>
+<td style="height: 20px; width: 73.4247%;">&nbsp;western, best, diego, stay, hotel, thank, plus, room, breakfast, staff</td>
+</tr>
+<tr style="height: 20px;">
+<td style="height: 20px; width: 10%;">&nbsp;19</td>
+<td style="height: 20px; width: 73.4247%;">&nbsp;room, hotel, stay, night, small, good, floor, clean, bathroom, nois</td>
+</tr>
+<tr style="height: 20px;">
+<td style="height: 20px; width: 10%;">&nbsp;20</td>
+<td style="height: 20px; width: 73.4247%;">&nbsp;squar, union, francisco, hotel, room, locat, stay, walk, great, diva</td>
+</tr>
+<tr style="height: 20px;">
+<td style="height: 20px; width: 10%;">&nbsp;21</td>
+<td style="height: 20px; width: 73.4247%;">&nbsp;emma, ritz, hotel, carlton, stay, beauti, antonio, amaz, pearl, experi</td>
+</tr>
+<tr style="height: 20px;">
+<td style="height: 20px; width: 10%;">&nbsp;22</td>
+<td style="height: 20px; width: 73.4247%;">&nbsp;thank, stay, great, hotel, staff, time, review, share, appreci, enjoy</td>
+</tr>
+<tr style="height: 20px;">
+<td style="height: 20px; width: 10%;">&nbsp;23</td>
+<td style="height: 20px; width: 73.4247%;">&nbsp;waikiki, resort, morealoha, stay, beach, review, luana, thank, enjoy, mahalo</td>
+</tr>
+<tr style="height: 20px;">
+<td style="height: 20px; width: 10%;">&nbsp;24</td>
+<td style="height: 20px; width: 73.4247%;">&nbsp;atlanta, stay, hotel, downtown, staff, great, hampton, room, locat, area</td>
+</tr>
+</tbody>
+</table>
