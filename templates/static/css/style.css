@@ -55,12 +55,22 @@ html, body{
 	color: #262261;
 }
 
+.geo {
+	color: #a52424;
+}
+
 .i3 {
 	font-style: italic;
 	text-align : center;
 	font-size: 14px;
-	color: #808080;
-	
+	color: #808080;	
+}
+
+.i2 {
+	font-style: italic;
+	text-align : left;
+	/* font-size: 14px; */
+	color: #808080;	
 }
 
 .menu ul {
@@ -136,18 +146,47 @@ li{
 
 table{
 	border-collapse:collapse;
-	color: #000099
+	color: #000000;
+	font-size: 14px;
 }
 
+
 td{
-	border:1px solid #000066;
-	padding:15px;
+	/* border:1px solid #000066; */
+	/* padding:15px; */
+	padding-right:10px;
+	padding-left:10px;
 }
 
 tr:first-child
 {
 	font-weight:bold;
 }
+
+.row {
+	margin-left:0px;
+	margin-right:0px;
+  }
+	
+  .column1 {
+	float: left;
+	width: 70%;
+	padding: 0px;
+  }
+
+  .column2 {
+	float: left;
+	width: 30%;
+	padding-left: 10px;
+  }
+  
+  /* Clearfix (clear floats) */
+  /* .row::after {
+	content: "";
+	clear: both;
+	display: table;
+  } */
+
 
 /*.footer {
 	position : absolute;
