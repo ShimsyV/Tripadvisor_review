@@ -16,7 +16,7 @@ from flask_sqlalchemy import SQLAlchemy
 #################################################
 # Flask Setup
 #################################################
-app = Flask(__name__)
+application = Flask(__name__)
 
 #################################################
 # Database Setup
@@ -28,9 +28,9 @@ except KeyError:
     db_uri = "postgres://postgres:postgres@sj-db-1.ctg25floyats.us-east-2.rds.amazonaws.com/Hotel_Reviews_db"
 
 print(db_uri)
-app.config['SQLALCHEMY_DATABASE_URI'] = db_uri
+application.config['SQLALCHEMY_DATABASE_URI'] = db_uri
 
-db = SQLAlchemy(app)
+db = SQLAlchemy(application)
 
 
 ################################################
@@ -62,7 +62,7 @@ class hotel_reviews(db.Model):
 #################################################
 # Flask Routes
 #################################################
-@app.route("/routes")
+@application.route("/routes")
 def welcome():
     """List all available api routes."""
     return (
@@ -73,14 +73,14 @@ def welcome():
 # #################################################
 # # Rendering the Template
 # #################################################
-@app.route("/")     
-def enter_data(): 
+@application.route("/")     
+def home(): 
     return render_template("index.html")
 
 #################################################
 # State Route
 #################################################
-@app.route("/api/v1.0/reviewsall")
+@application.route("/api/v1.0/reviewsall")
 
 def reviewsall():
 
@@ -108,7 +108,7 @@ def reviewsall():
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    application.run(debug=True)
     
     
     
