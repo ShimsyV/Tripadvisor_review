@@ -73,9 +73,9 @@ def welcome():
 # #################################################
 # # Rendering the Template
 # #################################################
-# @app.route("/")     
-# def enter_data(): 
-#     return render_template("index.html")
+@app.route("/")     
+def enter_data(): 
+    return render_template("index.html")
 
 #################################################
 # State Route
