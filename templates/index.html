@@ -45,7 +45,7 @@
 <nav class="menu">
 	<ul>
 		<li><a href="index.html">About This Project</a></li>
-		<li><a href="">API</a></li>
+		<li><a href="http://localhost:5000//api/v1.0/reviewsall">API</a></li>
 		<li><a href="map.html">Map</a></li>
 		<li><a href="geography.html">Analysis, Geography</a></li>
 		<li><a href="rating.html">Analysis, Ratings</a></li>
@@ -94,6 +94,85 @@
 	<p class="i3">A number of different processes are applied to the text before machine analysis can be applied.</p>
 	<br>
 
+	<p>Example Review</p>
+	<p class="i3">Room was much larger than I expected, and water and fridge were offered for my room - had everything I needed. Nice basic breakfast was included. Room was very clean and everyone here was friendly! Would stay again. </p>
+
+	<p>Noise removal</p>
+	<p class="i3">Room <mark><s>was much</s></mark> larger <mark><s>than I</s></mark> expected<mark><s>, and</s></mark> water <mark><s>and</s></mark> fridge were offered <mark><s>for my</s></mark> room<mark><s> - had </s></mark>everything <mark><s>I</s></mark> needed<mark><s>.</s></mark> Nice basic breakfast <mark><s>was</s></mark> included<mark><s>.</s></mark> Room <mark><s>was very</s></mark> clean <mark><s>and</s></mark> everyone <mark><s>here was</s></mark> friendly<mark><s>!</s></mark> Would stay again<mark><s>.</s></mark> </p>
+
+	<p>Normalization</p>
+	<p class="i3">Room <mark><s>larger</s></mark><ins>large</ins> <mark><s>expected</s></mark><ins>expect</ins> water <mark><s>fridge</s></mark><ins>refridgerator</ins> <mark><s>offered</s></mark><ins>offer</ins> room everything <mark><s>needed</s></mark><ins>need</ins> Nice basic breakfast <mark><s>included</s></mark><ins>include</ins> Room clean everyone friendly Would stay again </p>
+	
+	<p>Tokenization</p>
+	<p class="i3"> [room, large, expect, water, refridgerator, offer, room, everything, need, nice, basic, breakfast, include, room, clean, everyone, friendly, would, stay, again] </p>
+	
+	<p>Vectorization</p>
+	<table style="width: 80%;" border="1">
+		<tbody>
+		<tr>
+		<td>room</td>
+		<td>large</td>
+		<td>expect</td>
+		<td>water</td>
+		<td>refridgerator</td>
+		<td>offer</td>
+		<td>everything</td>
+		<td>need</td>
+		<td>nice</td>
+		<td>basic</td>
+		<td>breakfast</td>
+		<td>include</td>
+		<td>clean</td>
+		<td>everyone</td>
+		<td>friendly</td>
+		<td>would</td>
+		<td>stay</td>
+		<td>again</td>
+		</tr>
+		<tr>
+		<td>3</td>
+		<td>1</td>
+		<td>1</td>
+		<td>1</td>
+		<td>1</td>
+		<td>1</td>
+		<td>1</td>
+		<td>1</td>
+		<td>1</td>
+		<td>1</td>
+		<td>1</td>
+		<td>1</td>
+		<td>1</td>
+		<td>1</td>
+		<td>1</td>
+		<td>1</td>
+		<td>1</td>
+		<td>1</td>
+		</tr>
+		<tr>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		<td>0</td>
+		</tr>
+		</tbody>
+		</table>
+	
+	<br>
 	<p>
 	<a href="https://en.wikipedia.org/wiki/K-means_clustering">K-means Clustering</a> is a method of vector quantization that aims to partition observations into several clusters in which each observation belongs to the cluster with the nearest mean. For this project, the processed text is analyzed to see how well words associate with other words. The clusters also helped us to analyze the text and find hotels associated to the same.
 	</p>
