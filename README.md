@@ -56,7 +56,7 @@ After machine clustering has been applied to the aggregated text, the most commo
 
 # Tableau
 
-We used tableau for mapping and visualizations. The link to public tableau workbook can be found [here](https://public.tableau.com/profile/zhanna5069#!/vizhome/zhanna4/Dashboard12)
+We used tableau for mapping and visualizations. The link to public tableau workbook can be found [here](https://public.tableau.com/profile/zhanna5069#!/vizhome/zhanna6/Dashboard14?publish=yes)
 
 ![img](https://github.com/jebreensa/Project-3_Group1/blob/main/map_image.PNG)
 
