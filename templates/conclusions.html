@@ -266,6 +266,7 @@
 <img src="static/005.png" width ="100%"></div>
 <p class ="i3">Number of Reviews associated by city within threshold (10+ reviews)</p>
 <p>Once implemented, the hotels were further grouped by their city/state association, reducing results to 64 cities.</p>
+<p>K-means clustering was set to generate 25 different clusters. Overall, there were 10952 unique words to parse through, even after stemming and tokenization. Using the "sklearn" module, cluster analysis was completed and within those clusters, the top 10 most common words were taken.  </p>
 </div>
 
 <div>
@@ -278,6 +279,7 @@
 <div>
 <h3>What Could Have Been Done Better</h3>
 <p>During the pre-processing stage and subsequent clustering, some words appear truncated. Either the stemming process or the tokenizer is consistently transforming words incorrectly. Further experimentation will alleviate this.</p>
+<p>As the keywords are generated from the top 10 most common words within each cluster, experimenting with different levels of word output and testing their results would allow for optimization.</p>
 </div>
 
 <div>
