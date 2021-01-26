@@ -16,7 +16,7 @@
 
 Guest reviews are becoming a prominent factor affecting people’s bookings/purchases. When you were looking for a place to stay for a vacation or purchase anything online, what did you do? You checked the reviews before you made your decision. Guest reviews clearly influence people’s booking decision, which means, you will need to take notice to what people are saying about the hotel!
 
-Using the reviews of hotels from tripadvisor, we analsysed the text of the reviews by various guests(about 10,000 reviews). The project can be viewed [here]()
+Using the reviews of hotels from tripadvisor, we analsysed the text of the reviews by various guests(about 10,000 reviews). The project can be viewed [here](https://s3.us-east-2.amazonaws.com/www.myawesomehotelreviews.com/index.html)
 
 # Data source
 
