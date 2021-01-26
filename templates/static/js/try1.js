@@ -4,6 +4,7 @@ var jsontarget = "https://media.githubusercontent.com/media/jebreensa/Project-3_
 
 // CHANGE THIS TO JSON WHEN SOURCE DATA IS READY
 Plotly.d3.csv(jsontarget, function(err, rows){
+// Plotly.d3.json(jsontarget, function(err, rows){
 	function unpack(rows, key) {
 	return rows.map(function(row) { return row[key]; });
 }
