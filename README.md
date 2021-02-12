@@ -82,12 +82,12 @@ source data:
 Resources/Datafiniti_Hotel_Reviews_Jun19.csv
 
 Processing files:
-1) data_cleaning_sql.ipynb
-2) Machine_learning_try1.ipynb (requires utils.py)
-3) plotly graphs.ipynb
+1) [data_cleaning_sql.ipynb](https://github.com/jebreensa/Project-3_Group1/blob/main/Resources/Datafiniti_Hotel_Reviews_Jun19.csv)
+2) [Machine_learning_try1.ipynb](https://github.com/jebreensa/Project-3_Group1/blob/main/Machine_learning_try1.ipynb)(requires utils.py)
+3) [plotly graphs.ipynb](https://github.com/jebreensa/Project-3_Group1/blob/main/plotly%20graphs.ipynb)
 
 Flask app:
-app.py
+[app.py](https://github.com/jebreensa/Project-3_Group1/blob/main/app.py)
 
 Frontend website startpoint:
-templates/index.html
+[templates/index.html](https://github.com/jebreensa/Project-3_Group1/blob/main/templates/index.html)
