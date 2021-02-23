@@ -77,12 +77,17 @@ The "Elbow method", a method of analyzing the variance-squared for each series o
 * During the pre-processing stage and subsequent clustering, some words appeared truncated. Either the stemming process or the tokenizer was consistently transforming words incorrectly. Further experimentation will alleviate this.
 
 
+### List of Working Files for reconstructing project
+source data:
+Resources/Datafiniti_Hotel_Reviews_Jun19.csv
 
+Processing files:
+1) [data_cleaning_sql.ipynb](https://github.com/jebreensa/Project-3_Group1/blob/main/Resources/Datafiniti_Hotel_Reviews_Jun19.csv)
+2) [Machine_learning_try1.ipynb](https://github.com/jebreensa/Project-3_Group1/blob/main/Machine_learning_try1.ipynb)(requires utils.py)
+3) [plotly graphs.ipynb](https://github.com/jebreensa/Project-3_Group1/blob/main/plotly%20graphs.ipynb)
 
+Flask app:
+[app.py](https://github.com/jebreensa/Project-3_Group1/blob/main/app.py)
 
-
-
-
-
-
-
+Frontend website startpoint:
+[templates/index.html](https://github.com/jebreensa/Project-3_Group1/blob/main/templates/index.html)
