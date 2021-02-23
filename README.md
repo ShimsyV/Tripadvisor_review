@@ -18,6 +18,8 @@ Guest reviews are becoming a prominent factor affecting people’s bookings/purc
 
 Using the reviews of hotels from tripadvisor, we analsysed the text of the reviews by various guests(about 10,000 reviews). The project can be viewed [here](https://s3.us-east-2.amazonaws.com/www.myawesomehotelreviews.com/index.html)
 
+![img](https://github.com/jebreensa/Project-3_Group1/blob/main/website.PNG)
+
 # Data source
 
 The data can be found [here](https://www.kaggle.com/datafiniti/hotel-reviews?select=Datafiniti_Hotel_Reviews_Jun19.csv). This dataset consists of 10,000 reviews over 1400 different hotels within the United States ranging between years 2014 through 2019.
